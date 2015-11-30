@@ -110,14 +110,14 @@ z-index: 20;
     top: 680px;
     left: 420px;
         pointer-events: none;
-        width: 750px;
+        width: 740px;
 
 }
 
 .abouttxt{
 position: absolute;
     top: 138px;
-    width: 940px;
+    width: 930px;
     left: 320px;
     z-index: 40;
 display: none;    
@@ -127,7 +127,7 @@ display: none;
 .whytxt{
 position: absolute;
     top: 138px;
-    width: 940px;
+    width: 930px;
     left: 320px;
     z-index: 40;
    display: none;
