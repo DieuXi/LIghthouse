@@ -167,7 +167,15 @@ display: none;
 }
 
 
-
+.home{
+    position: fixed;
+    z-index: 99;
+    height: 320px;
+    width: 250px;
+    top: 0px;
+    cursor: pointer;
+  
+}
 
 
 }
@@ -324,6 +332,19 @@ display: none;
     width: 590px;
     height: 340px;
 }
+
+.home{
+
+  position: fixed;
+    z-index: 99;
+    height: 230px;
+    width: 200px;
+    top: 0px;
+    cursor: pointer;
+}
+
+
+
 }
 
 

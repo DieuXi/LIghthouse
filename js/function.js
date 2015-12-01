@@ -10,6 +10,29 @@ $(document).ready(function(){
 });
 
 
+
+$('.home').click(
+	function(){
+				$('.abouttxt').css('display', 'none');
+		$('.whytxt').css('display', 'none');
+		$('.intro').attr('src', 'img/intro.png');
+		$('hr').css('margin-left','11.2%');
+		$('hr').css('width',"52");
+
+		$('.video').css('display', 'block');
+		$('.intro_text').css('display', 'block');
+
+		pos = "11.2%";
+		wid = "52";
+
+	}
+	);
+
+
+
+
+
+
 $('.one').hover(
 	function(){  
 		$('hr').css('margin-left','11.2%');
