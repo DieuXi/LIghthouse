@@ -8,30 +8,40 @@ body {
   padding-top: 50px;
   background-image: url("../img/background.jpg");
   background-repeat:no-repeat;
+  background-attachment: fixed;
   height: 1024px;
-  background-size:cover;*/
+  background-size:cover;
 }
+
+@media (min-width: 1501px) {
+
 
 
 .logo{
-
-	    top: 20px;
+	width:1323px;
+	top: 20px;
     position: absolute;
-    margin-left: 30px;
 }
+
+.loogo{
+
+width:1440px;
+ position:fixed;     
+ z-index: 60;
+
+}
+
 
 #logoimg{
 
-	z-index: 2;
-	    pointer-events: none;
+	pointer-events: none;
 
 }
 .social{
-
-    position: absolute;
-    top: 530px;
-    left: 50px;
-z-index: 30;
+    position: fixed;
+    bottom: 20px;
+    z-index: 30;
+    margin-left: 20px;
 }
 
 * {
@@ -43,14 +53,15 @@ body {
 }
 
 .nav_menu {
-  font-family: amasis-mt;
+
+    font-family: amasis-mt;
     width: 700px;
     margin-right: -15px;
-    position: absolute;
-    top: 32px;
+    position: fixed;
+    top: 58px;
     font-size: 18px;
-    left: 710px;
-    z-index: 40;
+    margin-left: 824px;
+    z-index: 70;
 }
 
 ul li {
@@ -93,52 +104,227 @@ hr {
 }
 
 .intro{
-width: 980px;
+    width: 1100px;
     position: absolute;
-    top: 180px;
-    left: 380px;
+    top: 200px;
     z-index: 10;
+    margin-left: 360px;
     pointer-events: none;
 
 }
 
 .intro_text{
 
-z-index: 20;
+    z-index: 20;
     position: absolute;
-    top: 680px;
-    left: 500px;
-        pointer-events: none;
-        width: 740px;
+    top: 760px;
+    pointer-events: none;
+    margin-left: 478px;
+    width: 870px;
 
 }
 
+img.topp {
+    width: 100%;
+    top: 0px;
+    z-index: 50;
+    position: fixed;
+}
+
 .abouttxt{
-position: absolute;
-    top: 158px;
-    width: 930px;
-    left: 380px;
+    position: absolute;
+    top: 175px;
+    width: 1080px;
     z-index: 40;
+    margin-left: 360px;
 display: none;    
 }
 
 
 .whytxt{
-position: absolute;
-    top: 158px;
-    width: 930px;
-    left: 380px;
+    position: absolute;
+    top: 175px;
+    width: 1100px;
     z-index: 40;
+    margin-left: 358px;
    display: none;
 }
 
 .video{
     position: absolute;
-    top: 210px;
-    left: 500px;
-    z-index: 50;
+    top: 230px;
+    margin-left:480px;
+    z-index: 40;
+    width:860px;
+    height: 480px;
+}
+
+
+
+
 
 }
+
+
+
+
+@media (max-width: 1500px) {
+@font-face {
+    font-family: amasis-mt;
+    src: url(fonts/amasis-mt.ttf);
+}
+
+
+
+.logo{
+  width:1323px ;
+  top: 20px;
+    position: absolute;
+}
+
+.loogo{
+width:1362px !important;
+ position:fixed;     
+ z-index: 60;
+
+}
+
+#logoimg{
+
+  pointer-events: none;
+
+}
+.social{
+    position: fixed;
+    bottom: 20px;
+    z-index: 30;
+    margin-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font: 300 100% 'Helvetica Neue', Helvetica, Arial;
+}
+
+.nav_menu {
+
+    font-family: amasis-mt;
+    width: 700px;
+    margin-right: -15px;
+    position: fixed;
+    top: 56px;
+    font-size: 18px;
+    margin-left: 745px;
+    z-index: 70;
+}
+
+ul li {
+  display: inline;
+  text-align: center;
+}
+
+.social>ul>li{
+
+      padding-right: 13px;
+      cursor: pointer;
+}
+
+.nav_menu>ul>li>a {
+  display: inline-block;
+  width: 30%;
+  padding: .75rem 0;
+  margin: 0;
+  text-decoration: none;
+  color: #333;
+}
+
+.two:hover ~ hr {
+  margin-left: 30%;
+}
+
+.three:hover ~ hr {
+  margin-left: 60% ;
+}
+
+
+hr {
+  height: 1rem;
+  width: 8%;
+  margin: 0;
+  background: #201E5A;
+  border: none;
+  margin-left: 11.2%;
+  transition: .3s ease-in-out;
+}
+
+.intro{
+    width: 1014px;
+    position: absolute;
+    top: 200px;
+    z-index: 10;
+    margin-left: 360px;
+    pointer-events: none;
+
+}
+
+.intro_text{
+
+    z-index: 20;
+    position: absolute;
+    top: 710px;
+    pointer-events: none;
+    margin-left: 468px;
+    width: 800px;
+}
+
+img.topp {
+    width: 100%;
+    top: 0px;
+    z-index: 50;
+    position: fixed;
+}
+
+.abouttxt{
+    position: absolute;
+    top: 175px;
+    width: 1080px;
+    z-index: 40;
+    margin-left: 360px;
+display: none;    
+}
+
+
+.whytxt{
+    position: absolute;
+    top: 175px;
+    width: 980px;
+    z-index: 40;
+    margin-left: 358px;
+   display: none;
+}
+
+.video{
+    position: absolute;
+    top: 230px;
+    margin-left:438px;
+    z-index: 40;
+    width:800px;
+    height: 450px;
+}
+}
+
+
+
+
+
+
+
+
+
+
 
 
 
