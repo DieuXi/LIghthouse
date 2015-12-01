@@ -169,10 +169,6 @@ display: none;
 
 
 @media (max-width: 1500px) {
-@font-face {
-    font-family: amasis-mt;
-    src: url(fonts/amasis-mt.ttf);
-}
 
 
 
@@ -283,6 +279,7 @@ hr {
 img.topp {
     width: 100%;
     top: 0px;
+    height: 160px;
     z-index: 50;
     position: fixed;
 }
@@ -290,7 +287,7 @@ img.topp {
 .abouttxt{
     position: absolute;
     top: 175px;
-    width: 1080px;
+    width: 980px;
     z-index: 40;
     margin-left: 360px;
 display: none;    
@@ -300,7 +297,7 @@ display: none;
 .whytxt{
     position: absolute;
     top: 175px;
-    width: 980px;
+    width: 1000px;
     z-index: 40;
     margin-left: 358px;
    display: none;
