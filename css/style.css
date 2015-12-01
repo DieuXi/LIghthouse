@@ -312,6 +312,7 @@ img.topp {
     width: 740px;
     z-index: 40;
     margin-left: 290px;
+     pointer-events: none;
 display: none;    
 }
 
@@ -322,6 +323,7 @@ display: none;
     width: 730px;
     z-index: 40;
     margin-left: 290px;
+     pointer-events: none;
    display: none;
 }
 
